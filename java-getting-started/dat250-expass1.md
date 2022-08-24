@@ -39,7 +39,7 @@
             I started by installing Eclipse as my IDE of choice, together with Maven and the Java SDK. I already had a Git client installed, so this step was skipped. My OS is Windows 11.
         <p>
         <p>
-            I validated that these tools/programs were installed correctly by creating a Hello World program in Eclipse. I then used the windows terminal to run java -version and mvn -v to verify that these were installed and added to the PATH variable. I encountered no issues during these steps.
+            I validated that these tools/programs were installed correctly by creating a Hello World program in Eclipse. I then used the windows terminal to run java -version and mvn -v to verify that these were installed and added to the PATH variable. Although I had some trouble remembering certain passwords, I encountered no technical issues during these steps.
         </p>
         <p>
             After initial setup I followed the link to create my Heroku account and started the java project tutorial. 

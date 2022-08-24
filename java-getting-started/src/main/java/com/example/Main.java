@@ -53,16 +53,15 @@ public class Main {
     SpringApplication.run(Main.class, args);
   }
 
-  @RequestMapping("/")
-  String index() {
-    return "index";
-  }
-
   @RequestMapping("/hello")
   String hello(Map<String, Object> model) {
       RelativisticModel.select();
-      Amount<Mass> m = Amount.valueOf("12 GeV").to(KILOGRAM);
-      model.put("science", "E=mc^2: 12 GeV = " + m.toString());
+      String energy = System.getenv().get("ENERGY");
+      if (energy == null) {
+         energy = "12 GeV";
+      }
+      Amount<Mass> m = Amount.valueOf(energy).to(KILOGRAM);
+      model.put("science", "E=mc^2: " + energy + " = "  + m.toString());
       return "hello";
   }
 
