@@ -46,7 +46,8 @@
             I validated that these tools/programs were installed correctly by creating a Hello World program in Eclipse. I then used the windows terminal to run java -version and mvn -v to verify that these were installed and added to the PATH variable. Although I had some trouble remembering certain passwords, I encountered no technical issues during these steps.
         </p>
         <p>
-            After initial setup I followed the link to create my Heroku account and started the java project tutorial. The steps here were quite straight forward and I followed along until the end, making sure everything worked as intended. 
+            After initial setup I followed the link to create my Heroku account and started the java project tutorial. The steps here were quite straight forward and I followed along until the end, making sure everything worked as intended. I did break the project for a while by deleting the .git folder as I wanted to have all class projects as seperate folders in a single git repo, forgetting that Heroku relies upon the git repo in the specific projects. After fixing this everything worked as before.
         </p>
+        <a href="https://salty-cove-57802.herokuapp.com">Heroku app link</a>
     </body>
 </html>
