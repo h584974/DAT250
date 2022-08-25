@@ -4,6 +4,9 @@
         body {
             background-color: hsl(0 0% 100%);
             color: hsl(0 0% 30%);
+            background-image: url('https://img.wallpapersafari.com/desktop/1680/1050/20/36/fcCy7G.jpg');
+            background-color: hsl(0 0% 100% / .6);
+            background-blend-mode: screen;
         }
         h1 {
             width: fit-content;
@@ -18,6 +21,7 @@
             height: .1rem;
             width: 100%;
             inset: auto auto 0 0;
+            border-radius: 100vmax;
             animation: slide 2.5s linear infinite;
         }
         h1::after {
@@ -42,7 +46,7 @@
             I validated that these tools/programs were installed correctly by creating a Hello World program in Eclipse. I then used the windows terminal to run java -version and mvn -v to verify that these were installed and added to the PATH variable. Although I had some trouble remembering certain passwords, I encountered no technical issues during these steps.
         </p>
         <p>
-            After initial setup I followed the link to create my Heroku account and started the java project tutorial. 
+            After initial setup I followed the link to create my Heroku account and started the java project tutorial. The steps here were quite straight forward and I followed along until the end, making sure everything worked as intended. 
         </p>
     </body>
 </html>
